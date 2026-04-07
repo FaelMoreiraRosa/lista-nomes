@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-content: center;
+}
+
+.content {
+    margin: 3rem;
+    width: 80rem;
+    padding: 15px;
+}
+
+#titulo{
+    font-size: 4vh;
+    margin-bottom: 5px;
+}
+
+.search-box{
+    padding: 5px;
+}
+
+.btn-pesquisar{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-pesquisar:active{
+    background-color: rgb(2, 2, 160);
+}
+
+.btn-carregar{
+    background-color: rgb(255, 191, 0);
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-carregar:active{
+    background-color: rgb(188, 141, 0);
+}
+
+#resultado{
+    padding: 10px;
+    width: 78.6rem;
+}
