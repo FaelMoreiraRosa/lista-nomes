@@ -11,12 +11,15 @@
 <body>
     <div class="content">
         <p id="titulo">Usuários</p>
-        <input type="search" class="search-box">
-        <button class="btn-pesquisar">Pesquisar</button>
-        <button class="btn-carregar">Carregar</button>
+        <input type="search" class="search-box" id="search">
+        <button class="btn-pesquisar" onclick="pesquisarNomes()">Pesquisar</button>
+        <button class="btn-carregar" onclick="carregarNomes()">Carregar</button>
         <hr>
-        <input type="text" id="resultado" value="Nenhum nome...">
+        <ul id="list-group">
+        </ul>
     </div>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
