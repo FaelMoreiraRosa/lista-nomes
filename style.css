@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     justify-content: center;
@@ -10,16 +10,16 @@ body{
     padding: 15px;
 }
 
-#titulo{
+#titulo {
     font-size: 4vh;
     margin-bottom: 5px;
 }
 
-.search-box{
+.search-box {
     padding: 5px;
 }
 
-.btn-pesquisar{
+.btn-pesquisar {
     background-color: blue;
     color: white;
     padding: 8px;
@@ -27,11 +27,11 @@ body{
     border: none;
 }
 
-.btn-pesquisar:active{
+.btn-pesquisar:active {
     background-color: rgb(2, 2, 160);
 }
 
-.btn-carregar{
+.btn-carregar {
     background-color: rgb(255, 191, 0);
     color: rgb(0, 0, 0);
     padding: 8px;
@@ -39,11 +39,22 @@ body{
     border: none;
 }
 
-.btn-carregar:active{
+.btn-carregar:active {
     background-color: rgb(188, 141, 0);
 }
 
-#resultado{
+#resultado {
     padding: 10px;
     width: 78.6rem;
+}
+
+#list-group {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-group-item{
+    border: 0.1px solid gray;
+    padding: 10px;
 }
